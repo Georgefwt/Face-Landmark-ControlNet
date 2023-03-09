@@ -4,7 +4,7 @@
 
 I trained using [ControlNet](https://github.com/lllyasviel/ControlNet), which was proposed by lllyasviel, on a face dataset. By using facial landmarks as a condition, finer face control can be achieved.
 
-Currently, I’m using Stable Diffusion 1.5 as the base model and dlib as the face landmark detector (those with the capability can replace it with a better one). The checkpoint will be released soon.
+Currently, I’m using Stable Diffusion 1.5 as the base model and dlib as the face landmark detector (those with the capability can replace it with a better one). Find the checkpoint here https://huggingface.co/georgefen/Face-Landmark-ControlNet.
 
 **Create conda environment:**
 
